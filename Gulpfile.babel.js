@@ -217,6 +217,16 @@ gulp.task("assets:images:build:ico", [
 ].filter(t => t),
   load("assets/images/build/ico"))
 
+gulp.task("assets:images:build:jpg", [
+  args.clean ? "assets:images:clean" : false
+].filter(t => t),
+  load("assets/images/build/jpg"))
+
+gulp.task("assets:images:build:png", [
+  args.clean ? "assets:images:clean" : false
+].filter(t => t),
+  load("assets/images/build/png"))
+
 /*
  * Copy and minify vector graphics
  */
@@ -229,6 +239,8 @@ gulp.task("assets:images:build:svg", [
  * Copy images
  */
 gulp.task("assets:images:build", [
+  "assets:images:build:jpg",
+  "assets:images:build:png",
   "assets:images:build:ico",
   "assets:images:build:svg"
 ])

@@ -26,13 +26,10 @@
 
 // Application header (stays always on top)
 .md-header {
-  @include z-depth(2);
-
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  height: 5.6rem;
   transition: background-color 0.25s;
   background-color: $md-color-primary;
   color: $md-color-white;
@@ -48,11 +45,6 @@
   // [screen +]: Show shadow depending on scroll offset
   @include break-from-device(screen) {
     box-shadow: none;
-
-    // Show and animate shadow
-    &[data-md-state="shadow"] {
-      @include z-depth(2);
-    }
   }
 
   // Hide for print
@@ -63,7 +55,7 @@
 
 // Navigation within header
 .md-header-nav {
-  padding: 0.4rem;
+  padding: 10px;
 
   // Icon buttons
   &__button {
@@ -79,8 +71,13 @@
     }
 
     // Set correct display on image
-    &.md-logo img {
-      display: block;
+    &.md-logo {
+      margin: 0;
+      padding: 0;
+      img {
+        display: block;
+        max-width: 120px;
+      }
     }
 
     // Hide search icon, if JavaScript is not available.
@@ -119,9 +116,9 @@
 
   // Header title - set line height to match icon for correct alignment
   &__title {
-    padding: 0 2rem;
+    padding: 0 6rem;
     font-size: 1.8rem;
-    line-height: 4.8rem;
+    line-height: 4.4rem;
   }
 
   // Parent page title
