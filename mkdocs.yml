@@ -19,37 +19,26 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
-site_url: http://squidfunk.github.io/mkdocs-material/
+site_name: Documentation
+site_description: All documentation for BRIDGE Teams
+site_author:
+site_url: https://documentation.leadformance.com
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
-
-# Copyright
-copyright: 'Copyright &copy; 2016 - 2017 Martin Donath'
+repo_name:
+repo_url:
 
 # Theme directory
 theme_dir: material
 
 # Options
 extra:
+  logo: assets/images/bridge.png
   feature:
     tabs: false
   palette:
-    primary: indigo
-    accent: indigo
-  social:
-    - type: globe
-      link: http://struct.cc
-    - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
-    - type: linkedin
-      link: https://de.linkedin.com/in/martin-donath-20a95039
+    primary:
+    accent:
 
 # Extensions
 markdown_extensions:

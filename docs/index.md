@@ -1,5 +1,9 @@
 # Material <small>for MkDocs</small>
 
+
+!!! test
+    this is a test
+
 ## Beautiful project documentation
 
 Material is a theme for [MkDocs][1], an excellent static site generator geared
@@ -28,3 +32,4 @@ theme: 'material'
 For detailed instructions see the [getting started guide][3].
 
   [3]: getting-started.md
+

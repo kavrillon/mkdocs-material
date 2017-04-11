@@ -30,7 +30,7 @@
   margin: 1.5625em 0;
   padding: 0.8rem 1.2rem;
   border-left: 3.2rem solid transparentize($clr-blue-a200, 0.6);
-  border-radius: 0.2rem;
+  border-radius: $md-radius-global;
   background-color: transparentize($clr-blue-a200, 0.85);
   font-size: ms(-1);
 
