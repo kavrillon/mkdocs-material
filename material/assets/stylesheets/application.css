@@ -177,14 +177,14 @@ kbd {
     margin: 1.5em 0;
     border-bottom: 0.1rem dotted rgba(0, 0, 0, 0.26); }
   .md-typeset a {
-    color: #201929;
+    color: #00BFFF;
     word-break: break-word; }
     .md-typeset a, .md-typeset a::before {
       -webkit-transition: color 0.125s;
       transition: color 0.125s; }
     .md-typeset a:hover, .md-typeset a:active,
 .md-typeset a.\:hover {
-      color: #00BFFF; }
+      color: #201929; }
   .md-typeset code,
   .md-typeset pre {
     background-color: rgba(236, 236, 236, 0.5);
@@ -1022,8 +1022,7 @@ hr {
   padding: 0.8rem 1.2rem;
   border-left: 3.2rem solid rgba(68, 138, 255, 0.4);
   border-radius: 0;
-  background-color: rgba(68, 138, 255, 0.15);
-  font-size: 1.28rem; }
+  background-color: rgba(68, 138, 255, 0.15); }
   .admonition::before {
     position: absolute;
     left: -2.6rem;
