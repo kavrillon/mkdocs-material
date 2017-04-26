@@ -36,7 +36,7 @@ input {
   color: $md-color-black;
   font-feature-settings: "kern", "liga";
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 // Proportionally spaced fonts
@@ -46,7 +46,7 @@ kbd {
   color: $md-color-black;
   font-feature-settings: "kern", "liga";
   font-family: "Courier New", Courier, monospace;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 // ----------------------------------------------------------------------------
@@ -85,6 +85,8 @@ kbd {
   // 2nd level headline
   h2 {
     margin: 4rem 0 1.6rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.07);
     font-size: ms(2);
     font-weight: 300;
     letter-spacing: -0.01em;
@@ -95,7 +97,7 @@ kbd {
   h3 {
     margin: 3.2rem 0 1.6rem;
     font-size: ms(1);
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: -0.01em;
     line-height: 1.5;
   }

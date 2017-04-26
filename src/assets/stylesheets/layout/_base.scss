@@ -36,7 +36,8 @@ $md-toggle__drawer--checked:
 // calculations base on relative ems (rems).
 html {
   height: 100%;
-  font-size: 62.5%;
+  font-size: 55%;
+  font-weight: 300;
 
   // [screen medium +]: Set base font-size to 11px
   @include break-from-device(screen medium) {
