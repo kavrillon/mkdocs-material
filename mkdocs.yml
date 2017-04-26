@@ -25,8 +25,8 @@ site_author:
 site_url: https://documentation.leadformance.com
 
 # Repository
-repo_name:
-repo_url:
+repo_name: Documentation
+repo_url: https://github.com/kavrillon/mkdocs-material
 
 # Theme directory
 theme_dir: material

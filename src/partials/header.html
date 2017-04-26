@@ -29,18 +29,11 @@
 
       <!-- Link to home -->
       <div class="md-flex__cell md-flex__cell--shrink">
-        {% if config.extra.logo %}
-          <a href="{{ config.site_url | default(nav.homepage.url, true) }}"
+          <a href="https://documentation.leadformance.com"
               title="{{ config.site_name }}"
               class="md-logo md-header-nav__button">
-            <img src="{{ base_url }}/{{ config.extra.logo }}" />
+            <img src="https://documentation.leadformance.com/assets/images/bridge.png" />
           </a>
-        {% else %}
-          <a href="{{ config.site_url | default(nav.homepage.url, true) }}"
-              title="{{ config.site_name }}"
-              class="md-icon md-icon--home md-header-nav__button">
-          </a>
-        {% endif %}
       </div>
 
       <!-- Button to toggle drawer -->
@@ -75,6 +68,15 @@
           {% include "partials/search.html" %}
         {% endblock %}
       </div>
+
+      <!-- Repository containing source -->
+      {% if config.repo_url %}
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          {% include "partials/source.html" %}
+        </div>
+      </div>
+      {% endif %}
     </div>
   </nav>
 </header>

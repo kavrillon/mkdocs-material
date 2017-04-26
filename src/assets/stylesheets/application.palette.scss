@@ -64,6 +64,7 @@ button[data-md-color-accent] {
 
 // Build primary colors
 @each $name, $color in (
+  "none":        $md-color-primary,
   "red":         $clr-red-400,
   "pink":        $clr-pink-500,
   "purple":      $clr-purple-400,
@@ -95,7 +96,7 @@ button[data-md-color-accent] {
 
     // Links in typesetted content
     .md-typeset a {
-      color: $color;
+      color: $md-color-accent;
     }
 
     // Application header (stays always on top)
@@ -159,6 +160,7 @@ button[data-md-color-accent] {
 
 // Build accent colors
 @each $name, $color in (
+  "none":        $md-color-accent,
   "red":         $clr-red-a400,
   "pink":        $clr-pink-a400,
   "purple":      $clr-purple-a200,
@@ -191,7 +193,7 @@ button[data-md-color-accent] {
       // Hovered and active links
       a:hover,
       a:active {
-        color: $color;
+        color: $md-color-primary;
       }
 
       // Hovered scrollbar thumb
