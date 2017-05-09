@@ -32,7 +32,7 @@
           <a href="https://documentation.leadformance.com"
               title="{{ config.site_name }}"
               class="md-logo md-header-nav__button">
-            <img src="https://documentation.leadformance.com/assets/images/bridge.png" />
+            <img src="{{ base_url }}/assets/images/bridge.png" />
           </a>
       </div>
 
@@ -68,15 +68,6 @@
           {% include "partials/search.html" %}
         {% endblock %}
       </div>
-
-      <!-- Repository containing source -->
-      {% if config.repo_url %}
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <div class="md-header-nav__source">
-          {% include "partials/source.html" %}
-        </div>
-      </div>
-      {% endif %}
     </div>
   </nav>
 </header>

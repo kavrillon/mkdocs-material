@@ -60,6 +60,7 @@ $break-devices: (
 // Primary and accent colors
 $md-color-primary:                    #201929 !default;
 $md-color-accent:                     #00BFFF !default;
+$md-color-darken-accent:              darken($md-color-accent, 10%) !default;
 $md-radius-global:                    0;
 
 // Shades of black

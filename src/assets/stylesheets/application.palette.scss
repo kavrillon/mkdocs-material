@@ -96,7 +96,7 @@ button[data-md-color-accent] {
 
     // Links in typesetted content
     .md-typeset a {
-      color: $md-color-accent;
+      color: $md-color-darken-accent;
     }
 
     // Application header (stays always on top)
@@ -107,7 +107,7 @@ button[data-md-color-accent] {
     // Current or hovered link
     .md-nav__link:active,
     .md-nav__item--active > .md-nav__link {
-      color: $color;
+      color: $md-color-darken-accent;
     }
 
     // Reset active color for nested list titles
@@ -160,7 +160,7 @@ button[data-md-color-accent] {
 
 // Build accent colors
 @each $name, $color in (
-  "none":        $md-color-accent,
+  "none":        $md-color-darken-accent,
   "red":         $clr-red-a400,
   "pink":        $clr-pink-a400,
   "purple":      $clr-purple-a200,

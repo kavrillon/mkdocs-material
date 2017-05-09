@@ -177,7 +177,7 @@ kbd {
     margin: 1.5em 0;
     border-bottom: 0.1rem dotted rgba(0, 0, 0, 0.26); }
   .md-typeset a {
-    color: #00BFFF;
+    color: #0099cc;
     word-break: break-word; }
     .md-typeset a, .md-typeset a::before {
       -webkit-transition: color 0.125s;
@@ -345,7 +345,7 @@ kbd {
 
 html {
   height: 100%;
-  font-size: 55%;
+  font-size: 60%;
   font-weight: 300; }
 
 body {
@@ -404,7 +404,7 @@ hr {
   .md-flex__cell {
     display: table-cell;
     position: relative;
-    vertical-align: top; }
+    vertical-align: middle; }
     .md-flex__cell--shrink {
       width: 0%; }
     .md-flex__cell--stretch {
@@ -559,7 +559,7 @@ hr {
     transition: border-left 0.25s;
     border-left: 0.4rem solid #201929; }
     .md-nav--secondary .md-nav__link--active {
-      color: #201929; }
+      color: #0099cc; }
   .md-nav__title {
     display: block;
     padding: 1.2rem 1.2rem 0;
@@ -612,7 +612,7 @@ hr {
     .md-nav__link:focus, .md-nav__link:hover,
 .md-nav__link.\:focus,
 .md-nav__link.\:hover {
-      color: #00BFFF; }
+      color: #0099cc; }
   .md-nav__source {
     display: none; }
 
@@ -1373,7 +1373,7 @@ hr {
     .md-typeset .footnote li:hover .footnote-backref:hover,
     .md-typeset .footnote li:target .footnote-backref,
 .md-typeset .footnote li.\:hover .footnote-backref.\:hover {
-      color: #00BFFF; }
+      color: #0099cc; }
 
 .md-typeset .footnote-ref::before {
   display: inline;
@@ -1434,7 +1434,7 @@ hr {
 .md-typeset [id] .headerlink:focus,
 .md-typeset [id].\:hover .headerlink.\:hover,
 .md-typeset [id] .headerlink.\:focus {
-  color: #00BFFF; }
+  color: #0099cc; }
 
 .md-typeset h1 {
   padding-top: 0.8rem; }
@@ -1969,7 +1969,6 @@ hr {
     padding-right: 1.2rem; }
 
   .md-search {
-    margin-right: 2.8rem;
     padding: 0.2rem; }
 
   .md-search__inner {
