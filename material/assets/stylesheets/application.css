@@ -334,6 +334,7 @@ kbd {
     -webkit-overflow-scrolling: touch; }
   .md-typeset .md-typeset__table {
     display: inline-block;
+    width: 100%;
     margin-bottom: 0.5em;
     padding: 0 1.6rem; }
     .md-typeset .md-typeset__table table {
@@ -564,6 +565,7 @@ hr {
     padding: 1.2rem 1.2rem 0;
     font-weight: 700;
     text-overflow: ellipsis;
+    text-transform: capitalize;
     overflow: hidden; }
     .md-nav__title::before {
       display: none;
