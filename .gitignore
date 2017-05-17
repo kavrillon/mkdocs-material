@@ -43,3 +43,7 @@
 # Distribution files
 /dist
 /mkdocs_material.egg-info
+
+# Ignore Build Directory
+!material/
+material/*
