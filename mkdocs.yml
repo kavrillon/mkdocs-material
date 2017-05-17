@@ -33,7 +33,6 @@ theme_dir: material
 
 # Options
 extra:
-  logo: assets/images/bridge.png
   feature:
     tabs: false
   palette:

@@ -25,13 +25,9 @@
 
   <!-- Site title -->
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    {% if config.extra.logo %}
       <i class="md-logo md-nav__button">
         <img src="{{ base_url }}/assets/images/bridge.png" />
       </i>
-    {% else %}
-      <i class="md-icon md-icon--home md-nav__button"></i>
-    {% endif %}
     {{ config.site_name }}
   </label>
 
